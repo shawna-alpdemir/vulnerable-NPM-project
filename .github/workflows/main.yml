@@ -11,4 +11,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: monitor 
-          args: --org=test-dcn
+          args: --org=import-test
